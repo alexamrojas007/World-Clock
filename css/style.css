@@ -1,5 +1,10 @@
 body {
-  background-color: #f9f7fe;
+  background: linear-gradient(
+    109.6deg,
+    rgb(36, 45, 57) 11.2%,
+    rgb(16, 37, 60) 51.2%,
+    rgb(0, 0, 0) 98.6%
+  );
   color: #f9f7fe;
   font-family: "Oswald", sans-serif;
 }
@@ -24,7 +29,7 @@ select {
 }
 
 a {
-  color: #ff5d6e;
+  color: #ff6f3c;
 }
 
 .container {
@@ -32,7 +37,15 @@ a {
   padding: 30px;
   margin: 60px auto;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
-  background-color: #ffcbcb;
+  background: radial-gradient(
+    circle at -8.9% 51.2%,
+    rgb(255, 124, 0) 0%,
+    rgb(255, 124, 0) 15.9%,
+    rgb(255, 163, 77) 15.9%,
+    rgb(255, 163, 77) 24.4%,
+    rgb(19, 30, 37) 24.5%,
+    rgb(19, 30, 37) 66%
+  );
   border-radius: 10px;
 }
 
@@ -66,6 +79,6 @@ a {
 footer {
   text-align: center;
   font-size: 15px;
-  color: #a3de83;
+  color: #ff9a3c;
   font-family: "Times New Roman", Times, serif;
 }
